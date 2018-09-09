@@ -1,0 +1,233 @@
+<!DOCTYPE HTML>
+<html>
+
+  <head>
+    <title>Suzanne Collins</title>
+    <link href="https://fonts.googleapis.com/css?family=Carrois+Gothic+SC" rel="stylesheet">
+
+<!--start CSS here-->
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+      }
+
+/*header section*/
+
+      .header {
+	display:grid;
+	width:100%;
+	grid-template-columns:repeat(4, 1fr);
+	grid-template-rows:3fr 1fr;
+	text-align:center;
+	justify-items:stretch;
+	justify-content:stretch;
+	align-items:center;
+	color:white;
+	font-family: 'Carrois Gothic SC', sans-serif;
+	background-size:cover;
+	background-image:url("http://hdlost.net/walls/textures-lava-other.jpg");
+	position:fixed;
+	border-bottom:1px white solid;
+    z-index: 9;
+      }
+        .header h1 {
+	font-size: 35pt;
+	grid-column:1/5;
+	border-bottom:solid white 1px;
+	margin:0;
+	padding-top:5px;
+	padding-bottom:3px;
+      }
+      #home-button a, #works-button a, #biography-button a, #interview-button a {
+	color:white;
+	text-decoration:none;
+	padding:2px;
+      }
+	
+/*grid section*/
+
+      .grid{
+	display:grid;
+    position: relative;
+    top:88px;
+	grid-gap:5px;
+	grid-template-rows: repeat(2, auto);
+	color:white;
+	font-family: 'Carrois Gothic SC', sans-serif;
+        }
+      .main {
+    display:grid;
+	align-items:center;
+	justify-items:center;
+    grid-template-rows: repeat(11, auto);
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:100px;
+    margin:0px;
+    background:#000;
+    padding-left:200px;
+    padding-right:200px;
+    padding-bottom:100px;
+      }
+      .works-head {
+    grid-column:1/4;
+    text-align:center;
+    padding-top:40px;
+      }
+      .main h2 {
+    font-size:25pt;
+      }
+      .main h3 {
+    color:yellow;
+    text-align:center;
+      }
+      .main h4 {
+    font-size:12pt;
+    grid-column:1/4;
+    padding-bottom:1em;
+    text-align:center;
+      }
+      .main p {
+    width:500px;
+    font-size:12pt;
+      }
+      .book-1, .book-3, .book-5, .book-7, .book-9 {
+    grid-column:1/3;
+    text-align:left;
+      }
+      .book-2, .book-4, .book-6, .book-8, .book-10 {
+    grid-column:2/4;
+    text-align:right;
+      }
+
+/*footer section*/      
+
+      .footer {
+	display:grid;
+	grid-template-rows:2fr 1fr;
+	align-items:center;
+	justify-items:center;
+	padding-top:50px;
+    background:#000;
+      }
+      .footer p {
+	width:30%;
+    text-align:center;
+      }
+      .footer p a {
+	color:white;
+      }
+      .footer img {
+	border-radius:100%;
+      }
+    </style>
+
+<!--end CSS here-->
+
+  </head>
+
+  <body>
+
+    <div class="header">
+	    <h1>Suzanne Collins</h1>
+	    <div id="home-button">
+	        <a href="file:///C:/Users/joshu/OneDrive/Desktop/Coding%20projects/Suzanne%20Collins%20-%20updated/updated%20suzanne%20collins.html">Home</a>
+	    </div>
+	    <div id="works-button">
+	        <a href="http://www.suzannecollinsbooks.com/works.htm" target="_blank";>Works</a>
+	    </div>
+	    <div id="biography-button">
+	        <a href="https://www.biography.com/people/suzanne-collins-20903551" target="_blank";>Biography</a>
+	    </div>
+	    <div id="interview-button">
+	        <a href="https://www.scholastic.com/teachers/articles/teaching-content/qa-hunger-games-author-suzanne-collins/" target="_blank";>Interview</a>
+	    </div>
+    </div>
+    
+    <div class="grid">
+
+<!--FIX COLUMN SPAN ISSUE-->
+
+        <div class="main">
+            <div class="works-head">
+                <h2>Works</h2><br>
+                <h4>(click any book cover to purchase)</h4>
+            </div>
+            <div class="book-1"><h3>YEAR OF THE JUNGLE</h3><br>
+                <p>When young Suzy's father leaves for Vietnam, she struggles to understand what this means for her and her family. What is the jungle like? Will her father be safe? When will he return? The months slip by, marked by the passing of the familiar holidays and the postcards that her father sends. With each one, he feels more and more distant, until Suzy isn't sure she'd even recognize her father anymore.</p>
+            </div>
+            <a href="https://www.amazon.com/Year-Jungle-Suzanne-Collins/dp/0545425166/ref=sr_1_1?s=books&ie=UTF8&qid=1536377571&sr=1-1&keywords=year+of+the+jungle" target="_blank">
+                <img id="year-of-the-jungle" src="https://images.gr-assets.com/books/1354207821l/15929160.jpg" alt="Year of the Jungle"></a>
+            <a href="https://www.amazon.com/When-Charlie-McButton-Lost-Power/dp/0142408573/ref=sr_1_1?s=books&ie=UTF8&qid=1536377820&sr=1-1&keywords=when+charlie+mcbutton+lost+power" target="_blank">
+                <img id="when-charlie" src="https://i.ebayimg.com/images/g/XSUAAOSwcUBYPHng/s-l300.jpg" alt="When Charlie McButton Lost Power"></a>
+            <div class="book-2"><h3>WHEN CHARLIE MCBUTTON LOST POWER</h3><br>
+                <p>Charlie McButton likes computer games so much, he never plays with anything else. When a thunderstorm knocks out the electricity, his tech empire comes tumbling down, and his whole world loses power. Charlie needs batteries FAST! But the only triple-As he can find are in his little sister's talking doll. Will he resort to desperate measures and cause his sister to have a meltdown of her own? Or will he snap out of his computer craze long enough to realize his sister might be fun, even if she doesn't come with batteries?</p>
+            </div>
+            <div class="book-3"><h3>MOCKINGJAY<br>(THE HUNGER GAMES PART 3)</h3><br>
+                <p>Katniss Everdeen, girl on fire, has survived, even though her home has been destroyed. There are rebels. There are new leaders. A revolution is unfolding.
+
+                        District 13 has come out of the shadows and is plotting to overthrow the Capitol. Though she's long been a part of the revolution, Katniss hasn't known it. Now it seems that everyone has had a hand in the carefully laid plans but her.
+                        
+                        The success of the rebellion hinges on Katniss's willingness to be a pawn, to accept responsibility for countless lives, and to change the course of the future of Panem. To do this, she must put aside her feelings of anger and distrust. She must become the rebels' Mockingjay - no matter what the cost.</p>
+            </div>
+            <a href="https://www.amazon.com/Mockingjay-Hunger-Games-Suzanne-Collins/dp/0545663261/ref=sr_1_3?s=books&ie=UTF8&qid=1536377900&sr=1-3&keywords=mockingjay" target="_blank">
+                <img id="mockingjay" src="https://kbimages1-a.akamaihd.net/0b5c9521-159f-4500-b937-c9688bbcbe3d/353/569/90/False/mockingjay-the-final-book-of-the-hunger-games.jpg" alt="Mockingjay"></a>
+            <a href="https://www.amazon.com/Catching-Fire-Hunger-Games-2/dp/0545586178/ref=sr_1_2?s=books&ie=UTF8&qid=1536377900&sr=1-2&keywords=mockingjay" target="_blank">
+                <img id="catching-fire" src="https://images-na.ssl-images-amazon.com/images/I/51sdYzYGOuL._SX334_BO1,204,203,200_.jpg" alt="Catching Fire"></a>
+            <div class="book-4"><h3>CATCHING FIRE<br>(THE HUNGER GAMES PART 2)</h3><br>
+                <p>Against all odds, Katniss Everdeen has won the annual Hunger Games with fellow district tribute Peeta Mellark. But it was a victory won by defiance of the Capitol and their harsh rules. Katniss and Peeta should be happy. After all, they have just won for themselves and their families a life of safety and plenty. But there are rumors of rebellion among the subjects, and Katniss and Peeta, to their horror, are the faces of that rebellion. The Capitol is angry. The Capitol wants revenge.</p>
+            </div>
+            <div class="book-5"><h3>THE HUNGER GAMES<br>(THE HUNGER GAMES PART 1)</h3><br>
+                <p>In the ruins of a place once known as North America lies the nation of Panem, a shining Capitol surrounded by twelve outlying districts. Long ago the districts waged war on the Capitol and were defeated. As part of the surrender terms, each district agreed to send one boy and one girl to appear in an annual televised event called, "The Hunger Games," a fight to the death on live TV. Sixteen-year-old Katniss Everdeen, who lives alone with her mother and younger sister, regards it as a death sentence when she is forced to represent her district in the Games. The terrain, rules, and level of audience participation may change but one thing is constant: kill or be killed.</p>
+            </div>
+            <a href="https://www.amazon.com/Hunger-Games-Book-1/dp/0439023521/ref=sr_1_1?s=books&ie=UTF8&qid=1536377900&sr=1-1&keywords=mockingjay" target="_blank">
+                <img id="hunger-games" src="https://images-na.ssl-images-amazon.com/images/I/41LPBRNaVCL._SX355_BO1,204,203,200_.jpg"></a>
+            <a href="https://www.amazon.com/Gregor-Overlander-Suzanne-Collins/dp/0439678137/ref=sr_1_1?s=books&ie=UTF8&qid=1536438527&sr=1-1&keywords=gregor+the+overlander" target="_blank">
+                <img id="gregor-one" src="https://images-na.ssl-images-amazon.com/images/I/512jVI-avrL._SX342_BO1,204,203,200_.jpg" alt="Gregor the Overlander"></a>
+            <div class="book-6"><h3>GREGOR THE OVERLANDER<br>(THE UNDERLAND CHRONICLES 1)</h3><br>
+                <p>When Gregor falls through a grate in the laundry room of his apartment building, he hurtles into the dark Underland, where spiders, rats, cockroaches coexist uneasily with humans. This world is on the brink of war, and Gregor's arrival is no accident. A prophecy foretells that Gregor has a role to play in the Underland's uncertain future. Gregor wants no part of it -- until he realizes it's the only way to solve the mystery of his father's disappearance. Reluctantly, Gregor embarks on a dangerous adventure that will change both him and the Underland forever.</p>
+            </div>
+            <div class="book-7"><h3>GREGOR AND THE PROPHECY OF BANE<br>(THE UNDERLAND CHRONICLES 2)</h3><br>
+                <p>Gregor swears he will never return to the Underland, that strange world below New York City. But he is a key player in another prophecy, this one about an ominous white rat called the Bane. The Underlanders know there is only one way to lure Gregor back to their world: by kidnapping his little sister, Boots.
+                        Now Gregor's quest reunites him with his bat, Ares, and the rebellious princess Luxa. They descend into the dangerous Waterway in search of the Bane. If Gregor does not fulfill the prophecy, his life, and the Underland, will never be the same.</p>
+            </div>
+            <a href="https://www.amazon.com/Gregor-Prophecy-Bane-Suzanne-Collins/dp/0439650763/ref=sr_1_2?s=books&ie=UTF8&qid=1536438652&sr=1-2&keywords=gregor+the+overlander" target="_blank">
+                <img id="gregor-two" src="https://img1.od-cdn.com/ImageType-400/3096-1/74A/8CA/DA/%7B74A8CADA-CF30-4EA7-8247-21CBFB2EF771%7DImg400.jpg" alt="Gregor and the Prophecy of Bane"></a>
+            <a href="https://www.amazon.com/Gregor-Curse-Warmbloods-Underland-Chronicles/dp/0439656249/ref=sr_1_3?s=books&ie=UTF8&qid=1536438652&sr=1-3&keywords=gregor+the+overlander" target="_blank">
+                <img id="gregor-three" src="https://images.gr-assets.com/books/1397852674l/385706.jpg" alt="Gregor and the Curse of the Warmbloods"></a>
+            <div class="book-8"><h3>GREGOR AND THE CURSE OF THE WARMBLOODS<br>(THE UNDERLAND CHRONICLES 3)</h3><br>
+                <p>With two prophecies fulfilled, Gregor is now focused on the Prophecy of Blood, which calls for Gregor and Boots to return to the Underland to help ward off a plague. But this time, his mother refuses to let him go . . . unless she is allowed to travel with them.
+
+                        When they arrive in the subterranean city, the plague is spreading -- and it claims one of Gregor's closest companions. Only then does Gregor start to understand how the illness plays with the fate of all warm-blooded creatures. But how can he help combat it?</p>
+            </div>
+            <div class="book-9"><h3>GREGOR AND THE MARKS OF SECRET<br>(THE UNDERLAND CHRONICLES 4)</h3><br>
+                <p>For generations, rats have run the mice out of whatever lands they've claimed, keeping them constantly on the move. But now the mice are disappearing and the young queen Luxa is determined to find out why.
+
+                        Gregor and Boots join Luxa on a simple fact-finding mission. But when the true fate of the mice is revealed, it is something far more sinister than they had imagined -- and it points the way to the final prophecy Gregor has yet to fulfill.</p>
+            </div>
+            <a href="https://www.amazon.com/Gregor-Marks-Secret-Underland-Chronicles/dp/0439791464/ref=sr_1_4?s=books&ie=UTF8&qid=1536438652&sr=1-4&keywords=gregor+the+overlander" target="_blank">
+                <img id="gregor-four" src="https://images.gr-assets.com/books/1397854344l/319644.jpg" alt="Gregor and the Marks of Secret"></a>
+            <a href="https://www.amazon.com/Gregor-Code-Claw-Underland-Chronicles/dp/0439791448/ref=sr_1_5?s=books&ie=UTF8&qid=1536438652&sr=1-5&keywords=gregor+the+overlander" target="_blank">
+                <img id="gregor-five" src="https://www.fictiondb.com/covers/0439791448.jpg" alt="Gregor and the Code of Claw"></a>
+            <div class="book-10"><h3>GREGOR AND THE CODE OF CLAW<br>(THE UNDERLAND CHRONICLES 5)</h3><br>
+                <p>Everyone in the Underland has been taking great pains to keep The Prophecy of Time from Gregor. Gregor suspected it says something awful but he never imagined just how awful: It calls for the warrior's death. Now, with an army of rats approaching and his mom and sister still in Regalia, Gregor the warrior must gather up his courage to help defend Regalia and get his family home safely. The entire existence of the Underland is in Gregor's hands, and time is running out. There is a code to be cracked, a mysterious new princess, Gregor's burgeoning dark side, and a war to end all wars.</p>
+            </div>
+
+        </div>
+
+        <div class="footer">
+
+            <img src="http://www.suzannecollinsbooks.com/images/Central_park_ii-330-exp.jpg" alt="Me in Central Park">
+            <p>Hi! Thanks for visiting my website. Here’s a picture of me with a rat in Central Park. If you’ve read my fantasy series, The Underland Chronicles, you will have a clue as to why I chose this photo. If not, you may want to click around and find out a little more about my books. Or visit the <a href="http://www.scholastic.com/underlandchronicles/">Scholastic website</a> for cool games and info!</p>
+            
+        </div>
+
+    </div>
+
+</body>
