@@ -5,4 +5,5 @@
 <p>Yeah. It's <strong>terrible</strong>.</p>
 <p>That's why I decided to give it a <a href="https://joshuaakins1108.github.io/suzanne-collins-project" target="_blank">makeover</a> as my first real web development project.</p>
 <br>
-<p>I'm pretty happy with how it looks so far, but I'm open to any and all suggestions, so fork away :)</p>
+<p>I'm pretty happy with how it looks so far, but I'm open to any and all suggestions, so fork away. :)</p>
+<p>In particular, I would like the mobile formatting to be a bit tighter.</p>
